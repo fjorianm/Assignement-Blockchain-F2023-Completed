@@ -1,0 +1,43 @@
+/* Receipt.css */
+
+.page {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  .info {
+    text-align: left;
+    margin: 10px 0;
+  }
+  
+  .info p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .info b {
+    font-weight: bold;
+  }
+  
